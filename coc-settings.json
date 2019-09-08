@@ -1,0 +1,14 @@
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "args": [],
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    }
+  },
+  "suggest.snippetIndicator": "►",
+  "diagnostic.enable": true,
+  "diagnostic.enableSign": false,
+  "codeLens.enable": true
+}
